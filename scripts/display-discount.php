@@ -1,7 +1,7 @@
 <?php
 
-require "calculateUtils.php";
-require "error_display.php";
+require "utilities.php";
+require "error-display.php";
 
 
     // get the data from the form

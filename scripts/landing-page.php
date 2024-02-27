@@ -1,17 +1,17 @@
 <?php
 require_once("../app_config.php");
 require_once(APP_ROOT.APP_FOLDER_NAME."/scripts/echoHTML.php");
-require_once(APP_ROOT . APP_FOLDER_NAME . "/scripts/error_display.php");
+require_once(APP_ROOT . APP_FOLDER_NAME . "/scripts/error-display.php");
 require_once(APP_ROOT . APP_FOLDER_NAME . "/scripts/utilities.php");
 require_once(APP_ROOT . APP_FOLDER_NAME . "/scripts/echoHTML.php");
 
-$jsFile = APP_ROOT . APP_FOLDER_NAME . "client_scripts/check_values.js";
-$cssFile = APP_ROOT . APP_FOLDER_NAME . "styles/main.css";
+$jsFile = APP_ROOT . APP_FOLDER_NAME . "/client_scripts/check_values.js";
+$cssFile = APP_ROOT . APP_FOLDER_NAME . "/styles/main.css";
 
 echoHead("check_values.js", "main.css");
 echoHeader("Product Discount Calculator");
 // echoHome();
-echo "<form action='display_discount.php' onsubmit='return true: /*checkValues();*/' method='post'>
+echo "<form action='display-discount.php' onsubmit='return true: /*checkValues();*/' method='post'>
         <div id='data'>
                 <label>Product Description:</label>
                 <input type='string' id='product_description' name='product_description' required><br>

@@ -24,7 +24,7 @@ function echoFooter() {
     $date = date("Y");
     echo "<footer>
             &copy; Wiley Battles, $date, Please contact <a href='wrb5288@utulsa.edu'> Admin</a> for more information.
-            <button id='backButton' onclick='goBack()'>Go back</button>
+            <button id='backButton' onclick='window.history.back()'>Go back</button>
         </footer>
         </main>
         </body>
