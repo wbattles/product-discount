@@ -11,3 +11,5 @@ function echoError($message, $jsFile, $cssFile){
 
     exit();
 };
+
+// test

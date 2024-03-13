@@ -6,7 +6,8 @@ require_once(APP_ROOT . APP_FOLDER_NAME . "/scripts/utilities.php");
 require_once(APP_ROOT . APP_FOLDER_NAME . "/scripts/echoHTML.php");
 
 $jsFile = APP_ROOT . APP_FOLDER_NAME . "/client_scripts/check_values.js";
-$cssFile = APP_ROOT . APP_FOLDER_NAME . "/styles/main.css";
+// $cssFile = APP_ROOT . APP_FOLDER_NAME . "/styles/main.css";
+$cssFile = "main.css";
 
 echoHead("check_values.js", "main.css");
 echoHeader("Product Discount Calculator");
